@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clinic Appointment Scheduler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Clinic Appointment Scheduler</h1>
+    <p>Manage doctors, patients, and automated scheduling</p>
+  </header>
+
+  <main>
+    <section id="controls">
+      <input type="date" id="schedule-date" />
+      <button onclick="runScheduler()">Run Scheduler</button>
+      <button onclick="viewAppointments()">View Appointments</button>
+      <button onclick="populateSample()">Populate Sample Data</button>
+    </section>
+
+    <section id="results">
+      <h2>Output</h2>
+      <pre id="output">Waiting for action...</pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>Clinic Scheduler © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
